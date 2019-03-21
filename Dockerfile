@@ -23,7 +23,7 @@ ADD makefiles-${MAKEFILES_VERSION}.tar.gz /se12/bbb
 RUN mkdir /se12/bbb/source
 RUN cp -l /tmp/libbbb-${LIBBBB_VERSION}-arm-none-eabi/include/* /se12/bbb/source
 RUN cp -l /tmp/libbbb-${LIBBBB_VERSION}-arm-none-eabi/lib/* /se12/bbb/source
-ENV LMIBASE="/se12/bbb"
+ENV LMIBASE="/se12"
 
 # cleanup
 RUN rm -Rf /tmp/libbbb-${LIBBBB_VERSION}-arm-none-eabi
