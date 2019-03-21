@@ -1,7 +1,7 @@
 FROM alpine
 LABEL maintainer "Jacques Supcik <jacques.supcik@hefr.ch>"
 
-ARG LIBBBB_VERSION="1.2.1"
+ARG LIBBBB_VERSION="1.3.1"
 ARG MAKEFILES_VERSION="1.0.0"
 
 RUN apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/testing \
